@@ -2,16 +2,16 @@ function getShippingCost(country) {
     let message;
     switch (country.toLowerCase()) {
         case "china":
-            message = "Shipping to China will cost 100 credits";
+            message = `Shipping to ${country} will cost 100 credits`;
             break;
             case "chile":
-                message = "Shipping to Chile will cost 250 credits";
+                message = `Shipping to ${country} will cost 250 credits`;
                 break;
                 case "australia":
-                    message = "Shipping to Australia will cost 170 credits";
+                    message = `Shipping to ${country} will cost 170 credits`;
                     break;
                     case "jamaica":
-                        message = "Shipping to Jamaica will cost 120 credits";
+                        message = `Shipping to ${country} will cost 100 credits`;
                         break;
                         default:
                             message = "Sorry, there is no delivery to your country";
